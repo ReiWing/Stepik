@@ -20,7 +20,7 @@ def print_smiling_faces():
 
 class TestPrintSmilingFaces():
     def test_first_smiling_faces(self, prepare_faces, very_important_fixture):
-        assert 1 +1 == 2
+        assert 1 + 1 == 2
 
     def test_second_smiling_faces(self, prepare_faces):
-        assert 1 +1 == 2
+        assert 1 + 1 == 2
