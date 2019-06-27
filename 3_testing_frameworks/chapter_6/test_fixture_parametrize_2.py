@@ -7,7 +7,6 @@ import time
 def test_guest_should_see_login_link(browser, step):
     link = "https://stepik.org/lesson/{}/step/1".format(step)
     browser.get(link)
-    time.sleep(2)
 
     answer_f = math.log(int(time.time()))
     answer = str(answer_f)
